@@ -239,8 +239,6 @@ body {
 .btn-remover:hover {
     background-color: #c05e5e92;
 }
-
-/* Melhorias de acessibilidade */
 .cartao:focus {
     outline: 2px solid #62d5ac84;
     outline-offset: 2px;
@@ -259,41 +257,41 @@ body {
     padding: 0;
     color: #333;
     line-height: 1.6;
-    /* Novo fundo com imagem */
+    
     background-image: url(../imagem/36081cf8-4157-4ea5-816b-53c6d3e3c2fb.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    min-height: 100vh; /* Garante que ocupe toda a altura da tela */
+    min-height: 100vh; 
 }
 
-/* Overlay escuro */
+
 body::before {
     content: '';
-    position: fixed; /* Mudei de absolute para fixed */
+    position: fixed; 
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.4); /* Reduzi a opacidade para 0.4 */
+    background-color: rgba(0, 0, 0, 0.4); 
     z-index: -1;
 }
 
-/* Conteúdo principal */
+
 .conteudo-principal {
     max-width: 1000px;
     margin: 20px auto;
     padding: 0 20px;
     position: relative;
     z-index: 1;
-    background-color: rgba(210, 208, 209, 0.661); /* Fundo semi-transparente */
+    background-color: rgba(210, 208, 209, 0.661); 
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(44, 35, 42, 0.2);
     padding: 20px;
 }
 
 .rodape {
-    background-color: rgba(232, 182, 225, 0.596); /* Adicione transparência */
-    /* ... mantém o resto ... */
+    background-color: rgba(232, 182, 225, 0.596); 
+    
 }
